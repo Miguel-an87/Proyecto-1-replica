@@ -568,6 +568,10 @@ input::placeholder {
   .textparr {
     display: none;
   }
+  .webmapito1,
+  .webmapito2 {
+    display: none;
+  }
 }
 @media (min-width: 500px) {
   /*   .enlacesgrid {
