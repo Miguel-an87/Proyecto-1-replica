@@ -168,13 +168,14 @@ input::placeholder {
 .DNpromo {
   width: 90%;
   margin-bottom: 80px;
-  margin-left: 88px;
+  margin-left: 75px;
 }
 
 .DNpromo img {
   width: 98.5%;
   height: 100%;
   object-fit: cover;
+  margin-left: 14px;
 }
 
 .enlacesgrid {
@@ -185,17 +186,6 @@ input::placeholder {
   justify-content: center;
   align-items: center;
 }
-/*   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 2;
-  grid-gap: 30px; */
-/*   justify-content: center; */
-/* margin-top: 150px; */
-/* margin-left: 123px;
-    margin-right: 200px;} */
-
-/* .enlacesgrid div {
-  width: 200px;
-} */
 
 .enlgrid {
   height: 200px;
@@ -249,6 +239,7 @@ input::placeholder {
   font-weight: bold;
   margin-right: 30px;
   margin-top: 30px;
+  flex-wrap: wrap;
 }
 
 .selector {
@@ -283,7 +274,7 @@ input::placeholder {
 }
 
 .logosss {
-  width: 150px;
+  width: 76px;
 }
 
 /* Atajos */
@@ -521,6 +512,7 @@ input::placeholder {
   .enlacesgrid {
     grid-template-columns: repeat(6, 1fr);
     justify-content: center;
+    margin-left: 30px;
   }
 }
 
@@ -587,6 +579,11 @@ input::placeholder {
   .webmapito6,
   .webmapito5 {
     display: none;
+  }
+  .DNpromo {
+    width: 82%;
+    margin-bottom: 80px;
+    margin-left: 40px;
   }
 }
 @media (min-width: 500px) {
